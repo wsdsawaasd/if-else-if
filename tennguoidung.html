@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ten nguoi dung</title>
+</head>
+<body>
+<script>
+    var usedname = prompt("ten nguoi dung");
+    if (usedname == 'admin') {
+        var password = prompt("pass word");
+        if (password == 'themaster') {
+            alert("welcome")
+        } else if (password == 'null') {
+            alert("canceld")
+        } else {
+            alert('Wrong password')
+        }
+    } else if (usedname == 'null') {
+        alert("canceld")
+    } else {
+        alert("i don't know")
+    }
+</script>
+</body>
+</html>
